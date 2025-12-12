@@ -1,56 +1,39 @@
-# Pseudocode Exercise 5 Array
+# Pseudocode Bubble Sort
+
+PDF:
+https://drive.google.com/file/d/1ZEc59991acsLvp78WUFCheGfaK9CA18o/view?usp=sharing
 
 ---
 
 ## Exercise 1
 
-Find average of list elements.
+Bubble Sort to Sort in Descending Order
 
     Example:
-    Input: [1,2,3,4,5] 
-    Output: 3
+        Input: [2, 9, 4, 1]
+        Output: [9, 4, 2, 1]
 
 
 ## Exercise 2
 
-Find smallest element in a list.
+Count how many swaps does Bubble Sort perform
 
     Example:
-    Input: [1,4,8,10,15]
-    Output: 1
+        Input: [3, 1, 2]
+        Output: Total Swaps = 2
 
     
 ## Exercise 3
 
-Find index number of highest number. Suppose index starts from 1.
+Trace Bubble Sort. Show the list after each full pass of Bubble Sort.
 
+   
     Example:
-    Input: [1,5,9,3,4]
-    Output: 3
-
-
-## Exercise 4
-
-Count how many elements in the array are even numbers.
-
-    Example:
-    Input: [1, 2, 3, 4, 5, 6]  
-    Output: 3
-
-
-## Exercise 5 (Challenge)
-
-Input a list of numbers.
-Find all the “peaks” — elements that are greater than their neighbors.
-
-    Example:
-    Input: [1, 3, 2, 5, 4, 6, 6, 2]
-    Output: [3, 5]
-
-    Explanation:
-    3 > 1 and 2
-    5 > 2 and 4
-    6 is not counted (since equal neighbor)
+        Input: [6, 3, 5, 2]
+        Output: 
+                Pass 1: [3, 5, 2, 6]
+                Pass 2: [3, 2, 5, 6]
+                Pass 3: [2, 3, 5, 6]
 
 ---
 
